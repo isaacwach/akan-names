@@ -26,7 +26,34 @@
     <div class="container-fluid about-app">
         <h2>About Application</h2>
         <p>Most people find it hard remembering the specic day of the week that they were born. This application will help you to identify the day of the week you were born, by simply inputting your date of birth. Besides, the application will alert you the akan name corresponding your day of birth.</p>
+        <div class="about-form">
+            <form>
+                <label for="year">Enter year of birth:</label><br>
+                <input type="number" id="year" name="year" value="year"><br>
+                <label for="cars">Choose the month of birth</label> <br>
+                <select name="cars" id="month" form="carform">
+                  <option class="month" value=0>January</option>
+                  <option class="month" value=1>February</option>
+                  <option class="month" value=2>March</option>
+                  <option class="month" value=3>April</option>
+                  <option class="month" value=4>May</option>
+                  <option class="month" value=5>June</option>
+                  <option class="month" value=6>July</option>
+                  <option class="month" value=7>August</option>
+                  <option class="month" value=8>September</option>
+                  <option class="month" value=9>October</option>
+                  <option class="month" value=10>November</option>
+                  <option class="month" value=11>December</option>
+                </select> <br>
+                <label for="day">Enter day:</label><br>
+                <input type="number" id="day" name="day" value="day"><br>
+              </form>
+            
+              <button id="btn">Submit</button>
+        </div>
+        <div class="radio">
 
+        </div>
     </div>
 
     <script src="index.js"></script>
