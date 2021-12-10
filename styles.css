@@ -1,5 +1,7 @@
 .header {
     background-image: url("images/headerback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 700px;
 }
 .header h1 {
