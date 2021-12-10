@@ -1,3 +1,5 @@
+
+/* header section */
 .header {
     background-image: url("images/image\ 1\ \(1\).png");
     background-repeat: no-repeat;
@@ -15,4 +17,11 @@
     height: 600px;
     border-radius: 20%;
     
+}
+
+/* about application section */
+
+.about-app {
+    text-align: center;
+    padding: 0px 500px;
 }
