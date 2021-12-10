@@ -23,5 +23,15 @@
 
 .about-app {
     text-align: center;
-    padding: 0px 500px;
+    padding: 50px 500px;
+}
+#year {
+    width: 300px;
+    height: 40px;
+}
+#month {
+    width: 200px;
+}
+#day {
+    width: 300px;
 }
