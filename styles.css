@@ -2,8 +2,13 @@
     background-image: url("images/headerback.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
 }
 .header h1 {
     color: white;
+}
+.about-akan {
+    padding-left: 100px;
+}
+.akan-photo img {
+    width: 700px;
 }
