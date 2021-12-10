@@ -1,6 +1,5 @@
 .header {
-    background-image: url("../images/giphy.webp");
-    background-color: black;
+    background-image: url("images/headerback.png");
     height: 700px;
 }
 .header h1 {
