@@ -1,5 +1,5 @@
 .header {
-    background-image: url("images/headerback.png");
+    background-image: url("images/image\ 1\ \(1\).png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -7,8 +7,12 @@
     color: white;
 }
 .about-akan {
-    padding-left: 100px;
+    padding-left: 200px;
 }
 .akan-photo img {
     width: 700px;
+    padding-left: 0;
+    height: 600px;
+    border-radius: 20%;
+    
 }
