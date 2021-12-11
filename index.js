@@ -26,4 +26,10 @@ document.getElementById("btn").addEventListener("click", function () {
     } else if(male===false && female===false) {
         alert("please select gender")
     }
+
+    if(male===true){
+        alert("you were born on " + days[dayOfBirth] + " and your akan name is " + maleName[dayOfBirth])
+    } else if(female===true){
+        alert("you were born on " + days[dayOfBirth] + " and your akan name is " + femaleName[dayOfBirth])
+    }
 });
