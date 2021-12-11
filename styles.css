@@ -1,7 +1,7 @@
 
 /* header section */
 .header {
-    background-image: url("images/image\ 1\ \(1\).png");
+    background-image: url("images/20a6114a9edcc0f71ae0dbcc9efcaf3a.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,14 +24,43 @@
 .about-app {
     text-align: center;
     padding: 50px 500px;
+    background-color: rgba(248, 152, 169, 0.918);
 }
 #year {
     width: 300px;
     height: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 #month {
-    width: 200px;
+    width: 300px;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 #day {
     width: 300px;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#btn {
+    width: 150px;
+    height: 40px;
+    margin-top: 25px;
+}
+.radio label {
+    font-size: 18px;
+}
+#female {
+    margin-left: 40px;
+}
+input[type=radio] {
+    border: 0px;
+    width: 100px;
+    height: 1.5em;
+}
+.about-app h2{
+    font-size: 40px;
+    color: blue;
 }
