@@ -12,4 +12,10 @@ document.getElementById("btn").addEventListener("click", function () {
     var maleName = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var femaleName = ["Akosu", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Amna"];
     var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    if (month===""||month===null) {
+        alert("please enter the month you were born")
+    } else if(day.value===""||day.value===null) {
+        alert("please enter the day you were born")
+    }
 });
