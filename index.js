@@ -18,4 +18,12 @@ document.getElementById("btn").addEventListener("click", function () {
     } else if(day.value===""||day.value===null) {
         alert("please enter the day you were born")
     }
+
+    if(month<=0||month>12) {
+        alert("please enter a valid month")
+    } else if(day.value<=0||day.value>21) {
+        alert("please enter a valid day")
+    } else if(male===false && female===false) {
+        alert("please select gender")
+    }
 });
