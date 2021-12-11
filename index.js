@@ -6,4 +6,6 @@ document.getElementById("btn").addEventListener("click", function () {
     var month=document.getElementById("month").value;
     const inputtedDate = new Date(year.value, month, day.value)
     let dayOfBirth = inputtedDate.getDay()
+    var male = document.getElementById("male").checked;
+    var female = document.getElementById("female").checked;
 });
