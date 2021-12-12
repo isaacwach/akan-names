@@ -9,6 +9,7 @@
 }
 .header h1 {
     color: white;
+    text-align: center;
 }
 .about-akan {
     padding-left: 200px;
@@ -16,9 +17,15 @@
 .akan-photo img {
     width: 700px;
     padding-left: 0;
-    height: 600px;
-    border-radius: 20%;
+    height: 650px;
+    border-radius: 10%;
     
+}
+.about-akan h2{
+    font-size: 30px;
+}
+.about-akan p {
+    font-size: 26px;
 }
 
 /* about application section */
@@ -26,7 +33,7 @@
 .about-app {
     text-align: center;
     padding: 50px 500px;
-    background-color: rgba(248, 152, 169, 0.918);
+    background-color: #EAC1C9;
 }
 #year {
     width: 300px;
