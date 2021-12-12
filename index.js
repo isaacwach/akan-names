@@ -17,14 +17,17 @@ document.getElementById("btn").addEventListener("click", function () {
         alert("please enter the month you were born")
     } else if(day.value===""||day.value===null) {
         alert("please enter the day you were born")
+        return false;
     }
 
     // if(month<=0||month>12) {
     //     alert("please enter a valid month")
     if(day.value<=0||day.value>31) {
         alert("please enter a valid day")
+        return false;
     } else if(male===false && female===false) {
         alert("please select gender")
+        return false;
     }
 
     if(male===true){
