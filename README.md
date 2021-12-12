@@ -9,7 +9,9 @@ I am a full stack developer, with impeccable skills in web development, UI desig
 ## Setup/Installation Requirements
 No available setup requirements
 ## BDD
-
+* Calculate day of birth 
+* Check validity of date entered 
+* Alert day of birth and akan name
 ## Technologies Used
 * HTML
 * CSS
