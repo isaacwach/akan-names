@@ -8,7 +8,7 @@
     
 }
 .header h1 {
-    color: white;
+    color: #7C051B;
     text-align: center;
     font-size: 50px;
     padding-bottom: 40px;
@@ -58,9 +58,12 @@
     margin-bottom: 25px;
 }
 #btn {
-    width: 150px;
-    height: 40px;
+    width: 180px;
+    height: 45px;
     margin-top: 25px;
+    background-color: #7C051B;
+    font-size: 22px;
+    color: white;
 }
 .radio label {
     font-size: 18px;
