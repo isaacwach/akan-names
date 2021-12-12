@@ -19,9 +19,9 @@ document.getElementById("btn").addEventListener("click", function () {
         alert("please enter the day you were born")
     }
 
-    if(month<=0||month>12) {
-        alert("please enter a valid month")
-    } else if(day.value<=0||day.value>21) {
+    // if(month<=0||month>12) {
+    //     alert("please enter a valid month")
+    if(day.value<=0||day.value>31) {
         alert("please enter a valid day")
     } else if(male===false && female===false) {
         alert("please select gender")
