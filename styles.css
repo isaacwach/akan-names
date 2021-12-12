@@ -10,6 +10,9 @@
 .header h1 {
     color: white;
     text-align: center;
+    font-size: 50px;
+    padding-bottom: 40px;
+    padding-top: 20px;
 }
 .about-akan {
     padding-left: 200px;
@@ -23,6 +26,7 @@
 }
 .about-akan h2{
     font-size: 30px;
+    color: #7C051B;
 }
 .about-akan p {
     font-size: 26px;
@@ -71,7 +75,7 @@ input[type=radio] {
 }
 .about-app h2{
     font-size: 50px;
-    color: blue;
+    color: #7C051B;
 }
 .about-app p{
     font-size: 28px;
